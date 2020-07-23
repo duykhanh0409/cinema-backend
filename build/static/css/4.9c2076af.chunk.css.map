@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,SACI,iBAAkB,CAClB,SAAU,CACV,QACJ,CAEA,MACI,YAAa,CACb,qDACJ","file":"4.9c2076af.chunk.css","sourcesContent":[".signup2{   \r\n    position: relative;\r\n    top: 100px;\r\n    left: 38%;\r\n}\r\n\r\n.wrap{\r\n    height: 860px;\r\n    background: url('../../images/uploads/slider-bg2.jpg');\r\n}"]}
