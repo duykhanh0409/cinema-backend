@@ -30,7 +30,7 @@ app.set('view engine', 'pug')
 app.set('views', './views')
 
 
-app.use(cors());
+
 app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "build", "index.html"));
   });
