@@ -23,7 +23,13 @@ var movie_schedule = new Schema({
                 ds_cinema: [
                         {
                             name: String,
-                            showtime: [String]
+                            showtime: [
+                                {
+                                    time:String,
+                                    seatAvailable:[String],
+                                    seatReserved:[String]
+                                }
+                            ]
                         }
                     ],
                 date: String
@@ -76,3 +82,5 @@ module.exports.getScheduleDataByID = async function (req, res) {
     console.log(item);
     res.json(item);
 }
+
+// viết phương thức put
