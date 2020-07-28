@@ -8,7 +8,7 @@ router.get("/create", controller.createSchedule);
 
 router.post("/PostData", controller.schedulePostData);
 
-router.put("/updateReserved", controller.updateReserved);
+// router.put("/updateReserved", controller.undateReserved);
 
 router.get("/data", controller.getScheduleData);
 

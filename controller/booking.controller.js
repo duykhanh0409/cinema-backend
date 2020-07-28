@@ -24,7 +24,7 @@ var booking = new Schema({
     date: String,
     tongTien: {type: Number},
     cinema: String,
-    seats: {type: Number},
+    seats: Array,
     client: String
 });
 
