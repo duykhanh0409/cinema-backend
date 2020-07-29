@@ -81,18 +81,18 @@ module.exports.getScheduleDataByID = async function (req, res) {
   res.json(item);
 };
 
-// viết phương thức put
+// // viết phương thức put
 
-module.exports.undateReserved = function (req, res) {
-  let schedule = mongoose.model("schedules", movie_schedule);
+// module.exports.undateReserved = function (req, res) {
+//   let schedule = mongoose.model("schedules", movie_schedule);
 
-  const dataUpdate = new schedule(req.body);
-  schedule
-    .findOneAndUpdate({ _id: req.body._id }, { $set: dataUpdate })
-    .then((result) => res.json(result))
-    .catch((err) => {
-      res.status(500).json("fail");
-      throw err;
-    });
-};
+//   const dataUpdate = new schedule(req.body);
+//   schedule
+//     .findOneAndUpdate({ _id: req.body._id }, { $set: dataUpdate })
+//     .then((result) => res.json(result))
+//     .catch((err) => {
+//       res.status(500).json("fail");
+//       throw err;
+//     });
+// };
 
